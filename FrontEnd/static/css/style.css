@@ -1,0 +1,155 @@
+body {
+  background-color: white;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+.imagen-empleado.sin-foto {
+  width: 10px;
+  height: 10px;
+}
+
+
+#resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+#resultado img {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+
+
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.empleado-encontrado {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imagen-empleado {
+  width: 200px;
+  height: 250px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  margin-right: 20px;
+
+}
+header {
+  background-color:cornflowerblue;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px; /* Ajusta el tamaño del logo según tus necesidades */
+}
+
+.info-empleado {
+  flex-grow: 1;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .nombre-completo {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nombre-completo {
+    font-size: 14px;
+  }
+}

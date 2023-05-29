@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Búsqueda de empleados</title>
+  <script src="FrontEnd\static\js\script.js"></script>
+  <link rel="stylesheet" href="FrontEnd\static\css\style.css">
+  <link rel="stylesheet" href="FrontEnd\static\css\bootstrap.min.css">
+  <script src="FrontEnd\static\js\bootstrap.min.js"></script>
+
+
+  
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="FrontEnd\static\img\DESUCLOGO.png" alt="logoDesuc">
+    </div>
+  </header>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header text-center">
+            <h4>Búsqueda de Encuestadores</h4>
+          </div>
+          <div class="card-body">
+            <div class="form-group text-center">
+              <label for="rut">Ingresa el RUT del encuestador:</label>
+              <div class="d-flex justify-content-center">
+                <input type="text" id="rut" class="form-control mx-auto text-center" placeholder="Formato Rut: XXXXXXXX-X">
+              </div>
+            </div>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-primary" onclick="buscarEmpleado()">Buscar</button>
+              <button class="btn btn-secondary ml-2" onclick="limpiarBusqueda()">Limpiar</button>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div id="resultado"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
